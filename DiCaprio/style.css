@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    padding-left: 50px;
+    padding-right: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1{
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+nav ul li {
+    padding: 20px;
+    color: white;
+}
+nav h1:hover{
+    color: red;
+}
+nav ul li:hover{
+      color: red;
+      transition: .5s;
+}
+
+
+
+/*home pageee*/
+
+
+.home{
+   
+    height: 100vh;
+    background-color: aqua;
+   
+}
+.home h1{
+    
+    color: red;
+    padding: 25px;
+    width: 30%;
+    margin-top: 16%;
+    text-align: center;
+    transition: 2s;
+    font-size: 50px;
+    
+}
+.home .homepic{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/new\ leo.jpg);
+
+}
+
+/* aboutttt*/
+
+
+.about{
+    display: flex;
+    height: 100vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+     align-items: center;
+    width: 40%;
+    height: 80%;
+    background-color:black;
+    border-radius: 20px;
+}
+
+.about .content h1{
+    padding: 20px;
+    font-size: 50px;
+    color: red;
+   
+}
+
+.about .content p{
+    margin: 40px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+.about .content button{
+    font-size: 20px;
+    font-weight: 1000;
+    padding: 20px 30px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    
+}
+
+.about .content button:hover{
+    color: black;
+    transition: .3s;
+    background-color: rgb(230, 28, 28);
+    box-shadow: 0 05px rgb(230, 28, 28), 0 0 25px rgb(230, 28, 28),0 0 50px rgb(230, 28, 28),0 0 200px rgb(230, 28, 28);
+   
+}
+
+.about .aboutpic{
+    width: 40%;
+    height: 80%;
+    border-radius: 20px;
+    background-image: url(images/wp1809185-leonardo-dicaprio-wallpapers.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+/*mooviesssssss*/
+
+
+.movies{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:0 7%;
+}
+
+.movielist{
+    width: 22%;
+    height: 40%;
+    margin: 3%;
+    background-color: bisque;
+    border-radius: 13px;
+}
+
+.movielist img{
+   width: 100%;
+   height: 100%;
+   border-radius: 13px;
+}
+
+.movielist img:hover{
+   box-shadow: 10px 10px 10px 10px rgb(49, 49, 47);
+   width: 105%;
+   height: 105%;
+   transition: .3s;
+}
+
+
+/*achivementss*/
+
+.achivements{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(37, 36, 36);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.achivements h1{
+    color: aliceblue;
+}
+.achivements .mainawards{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.achivements .awards{
+    width: 30%;
+    height: 100%;
+    margin: 5%;
+    background-color: rgb(247, 141, 11);
+    border-radius: 13px;
+}
+.achivements .awards img{
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
+}
+
+.achivements .awards img:hover{
+    box-shadow: 10px 10px 10px 10px rgb(49, 49, 47);
+    width: 105%;
+    height: 105%;
+    transition: .3s;
+}
